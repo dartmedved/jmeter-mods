@@ -1,0 +1,34 @@
+#ignored resources
+
+#syntax: glob
+glob:.tmp
+#glob:.hgignore
+glob:.project
+glob:.settings
+glob:log
+glob:logs
+glob:target
+glob:test-output
+glob:.classpath
+glob:*.tmp
+glob:nbproject
+glob:.svn
+glob:.idea
+glob:*.ipr
+glob:*.iml
+glob:*.orig
+glob:sds_loader.properties
+glob:sds.options.json
+glob:*.csv
+glob:*.log
+glob:*.od.json
+
+
+#syntax: regexp
+#relre:^.+/bin/.*$
+#relre:^deploy$
+#relre:^ui/web/servers$
+#relre:^ui/schedule/servers$
+syntax: glob
+glob:*.iws
+

@@ -1,0 +1,11 @@
+{
+	"default":{
+		"protocol":"http",
+		"server":"x.host.ru",
+		"port":8080,
+		"prefix":"TEST",
+		"path":"/path",
+		"soapAction":"action",
+		"wsdlUrl":"some.url"		
+	}
+}

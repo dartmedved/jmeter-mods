@@ -1,0 +1,16 @@
+{
+	"remote.server":
+	{
+		"url":"jdbc:oracle:thin:@somehost:1521:sid",
+		"driver":"oracle.jdbc.driver.OracleDriver",
+		"user":"someuser",
+		"password":"somepassword"
+	},
+	"local.net.server":
+	{
+		"url":"jdbc:oracle:thin:@other.host:1521:OTHER_SID",
+		"driver":"oracle.jdbc.driver.OracleDriver",
+		"user":"otheruser",
+		"password":"other password"
+	}
+}
